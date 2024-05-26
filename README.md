@@ -19,3 +19,14 @@ A imagem de nosso projeto Go precisa ter menos de 2MB =)
 Dica: No vídeo de introdução sobre o Docker quando falamos sobre o sistema de arquivos em camadas, apresento uma imagem "raiz", talvez seja uma boa utilizá-la.
 
 Suba o projeto em um repositório Git remoto e coloque o link da imagem que subiu no Docker Hub.
+
+## Resutado do desafio
+
+Foi publicado a imagem docker em (https://hub.docker.com/repository/docker/gustavo3g/fullcycle/general).
+
+Para verificar o resultado executar o comando:
+
+```bash
+docker run gustavo3g/fullcycle
+```
+Temos que ter o seguinte resultado: Full Cycle Rocks!!
